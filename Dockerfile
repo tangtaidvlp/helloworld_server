@@ -19,7 +19,7 @@ EXPOSE 8080
 
 # Step 5: Define the command to run your Java application when the container starts.
 # This uses the 'java -jar' command with your application's JAR file.
-ENTRYPOINT ["java", "-jar", "your-java-app.jar"]
+ENTRYPOINT ["java", "-jar", "helloworld-0.0.1-SNAPSHOT.jar"]
 
 # Optional: Add environment variables
 # ENV JAVA_OPTS="-Xmx512m -Xms256m"
